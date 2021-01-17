@@ -1,0 +1,50 @@
+.error {
+    width: 100%;
+    text-align: center;
+    padding-top: 15%;
+
+    .gears {
+        position:relative;
+        height: 120px;
+        color: gray;
+    }
+
+    #first-gear {
+        position:absolute;
+        left: 43.5%;
+
+        animation-name: spin;
+        animation-duration: 2000ms;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear; 
+
+        @keyframes spin {
+            from {
+                transform:rotate(0deg);
+            }
+            to {
+                transform:rotate(-360deg);
+            }
+        }
+    }
+
+    #second-gear {
+        position:absolute;
+        bottom: 8px;
+        right: 43.5%;
+
+        animation-name: spin-back;
+        animation-duration: 2000ms;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear; 
+
+        @keyframes spin-back {
+            from {
+                transform:rotate(0deg);
+            }
+            to {
+                transform:rotate(360deg);
+            }
+        }
+    }
+}

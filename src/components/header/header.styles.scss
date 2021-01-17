@@ -1,0 +1,44 @@
+.header {
+  height: 70px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 25px;
+  background-color: rgb(230, 3, 3);
+
+  .logo-container {
+    height: 100%;
+    width: 70px;
+    padding: 20px 25px;
+  }
+
+  .options {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+    .option {
+      padding: 10px 60px;
+    
+      &:hover {
+        transform: scale(1.05);
+        transition: transform 0.3s;
+      }
+    
+    }
+
+    .subscribe {
+      border: 1px solid white;
+      border-radius: 5px;
+      margin-right:10px;
+
+      &:hover {
+        border: 1px solid white;
+        background-color: black;
+        color: white;
+      }
+    }
+  }
+}

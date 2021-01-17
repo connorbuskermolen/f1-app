@@ -1,0 +1,166 @@
+.driver-item-2021 {
+    color: black;
+    background-color: rgb(233, 233, 233);
+
+    height: 425px;
+    width: 310px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    padding: 0px 15px;
+    margin: 15px 15px;
+
+    border-top: 10px double black;
+    border-right: 10px double black;
+    border-radius: 15px;
+    
+
+    .backgroundImage{
+        height: 100%;
+        width: 100%;
+        background-size: cover;
+        background-position: center;
+        border-radius: 10px;
+        position:relative;
+    }
+
+    h2 {
+        font-size: 20px;
+        margin-bottom: 0px;
+    }
+
+    .driver-details-2021 {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        font-size: 18px;
+        margin: 1px;
+        margin-bottom: 5px;
+
+        img {
+            height: 55%;
+            width: 18%;
+            padding-top: 15px;
+            padding-right: 10px;
+        }
+
+    }
+
+    .team {
+        font-size: 18px;
+        border-top: 1px solid black;
+        border-right: 1px solid black;
+        margin: 2px 0px;
+        
+    }
+
+    &:hover {
+        cursor: pointer;
+        transform: scale(1.1);
+        transition: transform 1s cubic-bezier(0.25,0.45,0.45,0.95);
+
+        & .driver-info-2021{
+            visibility: visible;
+            opacity: 0.9;
+            transform: translate(-1px, -20px);
+        }
+    }
+
+    .driver-info-2021{
+        background-image: linear-gradient(black, rgb(87, 87, 87));
+        text-align: center;
+        border: 2px groove black;
+        border-radius: 15px;
+        color: white;
+        font-weight: bold;
+        font-size: 15px;
+        padding-left: 3px;
+        position: absolute;
+        bottom: 0;
+        visibility: hidden;
+        width: 90%;
+    }
+}
+
+// personalized styles for teams
+.mercedes:hover {
+    border-color: #00D2BE;
+    
+    .driver-name-2021{
+        color: #00D2BE;
+    }
+}
+
+.red-bull:hover {
+    border-color: #0600EF;
+    
+    .driver-name-2021{
+        color: #0600EF;
+    }
+}
+
+.ferrari:hover {
+    border-color: #C80000;
+
+    .driver-name-2021 {
+        color: #C80000;
+    }
+}
+
+.mclaren:hover {
+    border-color: #FF8700;
+
+    .driver-name-2021{
+        color: #FF8700;
+    }
+}
+
+.alpine:hover {
+    border-color: #245E97;
+
+    .driver-name-2021{
+        color: #245E97;
+    }
+}
+
+.aston-martin:hover {
+    border-color: #236920;
+
+    .driver-name-2021{
+        color: #236920;
+    }
+}
+
+.alphatauri:hover {
+    border-color: #000A44;
+
+    .driver-name-2021{
+        color: #000A44;
+    }
+}
+
+.williams:hover {
+    border-color: #0082FA;
+
+    .driver-name-2021 {
+        color: #0082FA;
+    }
+}
+
+.alfa-romeo:hover {
+    border-color: 	#9B0000;
+
+    .driver-name-2021 {
+        color: 	#9B0000;
+    }
+}
+
+.haas:hover {
+    border-color: #787878;
+
+    .driver-name-2021 {
+        color: #787878;
+    }
+}

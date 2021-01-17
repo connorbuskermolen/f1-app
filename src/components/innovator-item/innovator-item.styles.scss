@@ -1,0 +1,48 @@
+.innovator-item {
+    height: 450px;
+    width: 375px;
+    display:flex;
+    flex-direction: column;
+    margin: 10px 20px;
+    overflow: hidden;
+    border-radius: 10px;
+    border: 1px solid black;
+
+    .backgroundImage { 
+        height: 100%;
+        width: 100%;
+        background-position: center;
+        background-size: cover;
+    }
+
+    &:hover {
+
+        cursor: pointer;
+
+        transform: scale(1.1);
+        transition: ease-in-out 1s;
+
+        .innovator-info {
+            color:white;
+            background-image:linear-gradient(rgb(19, 19, 19), black);;
+            max-height: 420px;
+            transition: color 1s;
+            transition: background-color 1.5s;
+
+            .innovator-name{
+                font-weight: 400;
+            }
+        } 
+    }
+
+    .innovator-info {
+        background-image: linear-gradient(gray, lightgray);
+        color:black;
+        padding-left: 15px;
+        font-weight: 400;
+
+        .innovator-name{
+            font-weight: bolder;
+        }
+    }
+}
