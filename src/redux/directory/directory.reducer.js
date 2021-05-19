@@ -7,10 +7,10 @@ const INITIAL_STATE = {
             linkUrl: 'drivers'
         },
         {
-            title: 'f1 records',
-            image: 'https://wallpapercave.com/wp/wp7964618.jpg',
+            title: 'iconic cars',
+            image: 'https://wallpapercave.com/wp/wp5484952.jpg',
             id: 2,
-            linkUrl: 'records'
+            linkUrl: 'cars'
         },
         {
             title: 'technical legends',
@@ -28,7 +28,7 @@ const INITIAL_STATE = {
         },
         {
             title: 'drivers champions',
-            image: 'https://wallpapercave.com/wp/tpE83rr.jpg',
+            image: 'https://wallpapercave.com/wp/VlIp4jW.jpg',
             id: 5,
             linkUrl: 'drivers-champions',
             size: 'large',
@@ -53,6 +53,5 @@ export default directoryReducer;
 // https://wallpapercave.com/wp/9T4iAyu.jpg - senna champ
 // https://wallpapercave.com/wp/tpE83rr.jpg - senna helmet
 // https://wallpapercave.com/wp/VlIp4jW.jpg - senna flag
-// https://wallpapercave.com/wp/wp8272335.jpg - merc sketch
+
 // https://i.pinimg.com/originals/49/25/35/49253567c32d76ea0771f5c94e404227.jpg - f1 sketch
-// https://www.formula1.com/content/dam/fom-website/sutton/2018/Brazil/Sunday/dcd1811no457.jpg - merc team

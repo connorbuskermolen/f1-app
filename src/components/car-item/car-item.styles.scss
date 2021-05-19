@@ -1,0 +1,68 @@
+.car-item {
+    width: 50%;
+    border-top: 3px groove red;
+    border-right: 3px groove red;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 20px auto;
+
+    .car-name {
+        margin-left: 20px;
+    }
+
+    .car {
+        height: 320px;
+        display: flex;
+        flex-direction: row;
+        margin: 0px 20px;
+    }
+
+    .car-image {
+        height: 100%;
+        width: 100%;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .car-info {
+        font-weight: 700;
+        text-align: center;
+        width: 0%;
+        margin: 5px;
+        visibility: hidden;
+
+        p {
+            visibility: hidden;
+        }
+    }
+
+    &:hover {
+        width: 80%;
+
+        .car {
+            color: rgb(255, 255, 255);
+            background-color: rgba(12, 12, 12, 0.904);
+        }
+
+        .car-image{
+            width: 70%;
+            transition: width 500ms;
+        }
+
+        .car-info {
+            width: 40%;
+            visibility: visible;
+            
+
+            p {
+                visibility: visible;
+                transition: visibility 500ms linear 500ms;
+            }
+            
+        }
+
+        transition: width 800ms;
+    }
+}

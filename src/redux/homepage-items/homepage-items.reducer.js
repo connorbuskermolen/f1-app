@@ -1,15 +1,15 @@
 const INITIAL_STATE = {
     sections: [
         {
-            title: 'upcoming events',
-            image: 'https://wallpapercave.com/wp/wp5738601.jpg',
-            linkUrl: 'events',
+            title: 'f1 records',
+            image: 'https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/10recordslewishamilton-1605899954.jpg',
+            linkUrl: 'records',
             id: 1,
             side: 'left'
         },
         {
             title: 'team history',
-            image: 'https://wallpapercave.com/wp/wp4800116.jpg',
+            image: 'https://wallpapercave.com/wp/BqAlgKS.jpg',
             linkUrl: 'history',
             id: 2,
             side: 'right'
@@ -23,14 +23,14 @@ const INITIAL_STATE = {
         },
         {
             title: 'cool stats',
-            image: 'https://wallpapercave.com/wp/wp3067871.jpg',
+            image: 'https://wallpapercave.com/wp/wp8029062.jpg ',
             linkUrl: 'stats',
             id: 4,
             side: 'right'
         },
         {
             title: 'terminology',
-            image: 'https://wallpapercave.com/wp/BqAlgKS.jpg',
+            image: 'https://wallpapercave.com/wp/wp4497264.jpg ',
             linkUrl: 'terminology',
             id: 5,
             side: 'left'
@@ -47,9 +47,9 @@ const homePageItemsReducer = (state = INITIAL_STATE, action) => {
 
 export default homePageItemsReducer;
 
-// https://wallpapercave.com/wp/wp4800116.jpg - car streaks
-// https://wallpapercave.com/wp/wp5484952.jpg - mp4/4
-// https://wallpapercave.com/wp/wp5738601.jpg - 2020 calendar
+
+
+
 // https://wallpapercave.com/wp/wp3067760.jpg - monaco gp water
 // https://wallpapercave.com/wp/wp3067871.jpg - brawngp
 // https://wallpapercave.com/wp/BqAlgKS.jpg - ham on track

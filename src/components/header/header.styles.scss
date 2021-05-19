@@ -21,6 +21,8 @@
 
     .option {
       padding: 10px 60px;
+      cursor: pointer;
+      color: white;
     
       &:hover {
         transform: scale(1.05);

@@ -24,7 +24,7 @@
 
         .boss-info {
             color:white;
-            background-color: black;
+            background-image: linear-gradient(black, rgb(46, 46, 46));
             max-height: 420px;
             transition: color 1s;
             transition: background-color 1.5s;
@@ -32,7 +32,7 @@
     }
 
     .boss-info {
-        background-color: white;
+        background-image: linear-gradient(lightgray, gray);
         color:black;
         padding-left: 15px;
     }

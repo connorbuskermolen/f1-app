@@ -6,11 +6,11 @@ const DRIVERS_2021 = {
             name: 'Lewis Hamilton',
             team: 'Mercedes',
             country: 'https://www.formula1.com/content/dam/fom-website/flags/United%20Kingdom.jpg.transform/2col/image.jpg',
-            wins: 95,
+            wins: 96,
             podiums: 165,
             championships: 7,
             imageUrl: 'https://assets.lewishamilton.com/media/heroes/GettyImages-1285771774.jpg',
-            poles: 98,
+            poles: 99,
             fLaps: 53,
             colour: 'mercedes'
         },
@@ -25,7 +25,7 @@ const DRIVERS_2021 = {
             championships: 0,
             imageUrl: 'https://mediacloud.theweek.co.uk/image/private/s--Y7bQfEGO--/v1604862466/theweek/2020/10/valtteribottas_theweek_portfolio_better_teaser.png',
             poles: 16,
-            fLaps: 15,
+            fLaps: 16,
             colour: 'mercedes'
         },
         {
@@ -38,7 +38,7 @@ const DRIVERS_2021 = {
             podiums: 42,
             championships: 0,
             imageUrl: 'https://www.formula1.com/content/dam/fom-website/sutton/2020/70thAnniversary/Sunday/1264843205.jpg',
-            poles: 3,
+            poles: 4,
             fLaps: 10,
             colour: 'red-bull'
         },

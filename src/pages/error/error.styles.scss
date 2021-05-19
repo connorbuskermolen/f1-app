@@ -1,18 +1,16 @@
 .error {
     width: 100%;
     text-align: center;
-    padding-top: 15%;
+    padding: 15% 0;
 
     .gears {
         position:relative;
         height: 120px;
-        color: gray;
     }
 
     #first-gear {
-        position:absolute;
+        position: absolute;
         left: 43.5%;
-
         animation-name: spin;
         animation-duration: 2000ms;
         animation-iteration-count: infinite;
@@ -45,6 +43,34 @@
             to {
                 transform:rotate(360deg);
             }
+        }
+    }
+
+    @media screen and (max-width: 500px) {
+        #first-gear {
+            height: 60px;
+            left: 36.5%;
+        }
+
+        #second-gear {
+            height: 60px;
+            right: 36.5%;
+            bottom: 50px;
+            
+        }
+    }
+
+    @media screen and (max-width: 400px) {
+        
+        #first-gear{
+            height: 60px;
+            left: 35%;
+        }
+
+        #second-gear {
+            height: 60px;
+            right: 35.5%;
+            
         }
     }
 }

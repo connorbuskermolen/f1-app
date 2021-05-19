@@ -1,9 +1,10 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
 
+import { auth } from '../../firebase/firebase.utils';
 import './header.styles.scss';
 
-const Header = () => (
+const Header = ({ currentUser }) => (
     <div className='header'>
         <Link className='logo-container' to='/'>
             <img 
@@ -17,6 +18,16 @@ const Header = () => (
             <a className='option' href='https://www.formula1.com/en/latest.html'>News</a>
             <a className='option' href='https://www.formula1.com/en/results.html/2020/drivers.html'>Standings</a>
             <a className='option' href='https://www.formula1.com/en/latest/article.f1-schedule-2021-bahrain-to-host-season-opener-as-australia-moves-later.4GpFlW2pc8sK9snFaVSHYg.html'>Events</a>
+            {
+                currentUser ?
+                <div className='option' onClick={() => auth.signOut()}>
+                    SIGN OUT
+                </div>
+                :
+                <Link className='option' to='/signin'>
+                    SIGN IN
+                </Link>
+            }
             <Link className='option subscribe' to='/'
             onClick={() => alert('Thanks for subscribing!')}            
             >
